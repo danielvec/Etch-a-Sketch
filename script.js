@@ -13,3 +13,11 @@ function makeSquares() {
 }
 
 makeSquares();
+
+/*function colorChanger() {
+    document.getElementsByClassName(".column").className = "newColor";
+}*/
+
+
+const squares = Array.from(document.querySelectorAll(".column"));
+squares.forEach(square => square.addEventListener('mouseover', () => {square.style.backgroundColor = 'black';}));

@@ -4,9 +4,13 @@
 }
 
 
-.column {
+.column, .newColor {
     height: 32px;
     width: 32px;
-    border: solid blue;
+ 
 
+}
+
+.newColor {
+    background-color: black;
 }
