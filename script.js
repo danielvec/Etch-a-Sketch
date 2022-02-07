@@ -22,6 +22,7 @@ button.addEventListener('click', reload)
 let squares = Array.from(document.querySelectorAll(".column"));
 
 function reload() {
+    
     let numOfSquares = parseInt(prompt("How many squares per grid? (max 100)"));
     //squares.forEach(square => square.style.backgroundColor = 'black');
     makeSquares(numOfSquares);
