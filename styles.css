@@ -1,14 +1,13 @@
 #container {
     display: flex;
     flex-direction: row; 
+    width: 960px;
+    height: 960px;
+    float: left;
 }
 
-
-.column, .newColor {
-    height: 32px;
-    width: 32px;
- 
-
+.column{
+    border: solid black;
 }
 
 .newColor {
