@@ -3,13 +3,35 @@
     flex-direction: row; 
     width: 960px;
     height: 960px;
-    float: left;
+    border: solid orange;
+    background: white;
 }
 
-.column{
-    border: solid black;
+h1 {
+    font-size: 72px;
+    font-family: pulang, sans-serif;
 }
 
 .newColor {
-    background-color: black;
+    background-color: rgb(8, 6, 6);
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color:indigo;
+    justify-content: space-evenly;
+}
+
+#reset {
+    height: 60px;
+    width: 155px;
+    background-color: orange;
+    font-size: 24px;
 }
