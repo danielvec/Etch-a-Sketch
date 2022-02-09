@@ -1,8 +1,8 @@
 #container {
     display: flex;
     flex-direction: row; 
-    width: 480px;
-    height: 480px;
+    width: 40vw;
+    height: 40vw;
     border: solid orange;
     background: white;
 }
@@ -20,6 +20,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50vw;
 }
 
 body {
@@ -27,7 +28,8 @@ body {
     align-items: center;
     background-color:indigo;
     justify-content: space-evenly;
-
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 #reset {
