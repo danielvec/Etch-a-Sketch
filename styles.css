@@ -1,14 +1,14 @@
 #container {
     display: flex;
     flex-direction: row; 
-    width: 960px;
-    height: 960px;
+    width: 480px;
+    height: 480px;
     border: solid orange;
     background: white;
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 62px;
     font-family: pulang, sans-serif;
 }
 
@@ -27,11 +27,12 @@ body {
     align-items: center;
     background-color:indigo;
     justify-content: space-evenly;
+
 }
 
 #reset {
-    height: 60px;
-    width: 155px;
+    height: 40px;
+    width: 95px;
     background-color: orange;
     font-size: 24px;
 }

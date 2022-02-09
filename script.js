@@ -9,8 +9,8 @@ function makeSquares(numSquares) {
             let column = document.createElement('div');
             column.className = "column"
             row.appendChild(column);
-            column.style.minWidth = (960/numSquares) + "px";
-            column.style.height = (960/numSquares) + "px";
+            column.style.minWidth = (480/numSquares) + "px";
+            column.style.height = (480/numSquares) + "px";
         }
         document.getElementById("container").appendChild(row);
     } colorSquares();
